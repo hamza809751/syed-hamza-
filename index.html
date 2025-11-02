@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="logo">Hamza</span>
+      </div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="social-inline">
+        <!-- small round icons -->
+        <button class="hamburger" aria-label="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">I'm</div>
+        <h1 class="hero-name">
+          Syed <span class="accent">Hamza</span>
+        </h1>
+        <p class="hero-sub">
+          Hello everyone im Student in Modern Web application Development Im Helping My Clients To Take a Wibsites Details-orinted developer with a love for problem solving and innovation.
+          Contact me.
+        </p>
+
+         <div class="badges">
+  <a class="company" href="https://github.com/hamza809751" target="_blank" rel="noopener">Github</a>
+  <a class="company" href="https://www.google.com/" target="_blank" rel="noopener">Google</a>
+  <a class="company" href="https://www.linkedin.com/in/hamza-developer-92516938b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="company" href="https://www.instagram.com/its__hamza_shah?igsh=bnBtcXoyYXB1OXRo" target="_blank" rel="noopener">Instagram</a>
+</div>
+
+        </div>
+
+        <div class="quick-stats">
+          <div>
+            <div class="stat">250+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div>
+            <div class="stat">100+</div>
+            <div class="stat-label">Clients</div>
+          </div>
+          <div>
+            <div class="stat">10+</div>
+            <div class="stat-label">Years</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-card">
+          <!-- replace src with your local filename -->
+          <img src="c:\Users\IT LAB3\Downloads\hamza 1\575194870_24887699500886692_7579404722008389620_n.jpg" alt="Syed Hamza">
+        </div>
+
+        <div class="services-card">
+          <div class="services-title">What Can I Do For Your Needs</div>
+          <ul class="services-list">
+            <li>
+              <div class="service-title">UI/UX Design</div>
+              <div class="service-meta">21 Projects</div>
+            </li>
+            <li>
+              <div class="service-title">Front End Development</div>
+              <div class="service-meta">48 Projects</div>
+            </li>
+            <li>
+              <div class="service-title">Mobile App Development</div>
+              <div class="service-meta">23 Projects</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Recent Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-thumb">UI/UX</div>
+          <h3>Design System Revamp</h3>
+          <p>End-to-end design of a component library and responsive site.</p>
+        </article>
+        <article class="card">
+          <div class="card-thumb">Frontend</div>
+          <h3>Marketing Site</h3>
+          <p>High-performance, accessible marketing website.</p>
+        </article>
+        <article class="card">
+          <div class="card-thumb">Mobile</div>
+          <h3>iOS/Android App</h3>
+          <p>Cross-platform app with polished interactions.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Syed Hamza — Built with ❤️</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
